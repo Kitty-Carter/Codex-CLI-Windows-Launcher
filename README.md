@@ -63,6 +63,6 @@ gemini -p "请用中文回答。Say hi."
 - Codex CLI 的单次提问是 `codex exec`，不是 `codex -p`。
 - Gemini CLI 的单次提问是 `gemini -p`。
 - 不要长期设置 Windows 全局代理环境变量。
-- 不要删除 `C:\Users\zyp31\.codex\auth.json`。
-- 不要删除 `C:\Users\zyp31\.codex\config.toml`。
+- 不要删除 `%USERPROFILE%\.codex\auth.json`。
+- 不要删除 `%USERPROFILE%\.codex\config.toml`。
 - 不要在 `C:\Windows`、`C:\Windows\System32`、`C:\Program Files` 里运行 Codex 或 Gemini。
